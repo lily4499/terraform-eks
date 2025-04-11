@@ -30,5 +30,5 @@ module "iam-vpc-eks-modules" {
   max_size           = 2
   min_size           = 1
   //instance_types   = ["t3.small", "t3.medium", "t3.large"]
-  instance_types   = ["t3.small"]
+  instance_types   = ["t3.medium"]
 }
